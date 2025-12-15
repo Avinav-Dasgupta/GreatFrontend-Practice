@@ -12,7 +12,7 @@ function addTask() {
         const listChild = document.createElement("li");
         const deleteButton = document.createElement("button");
         listChild.textContent = text + " ";
-        deleteButton.textContent = "delete";
+        deleteButton.textContent = "Delete";
         listChild.appendChild(deleteButton);
         list.appendChild(listChild);
         deleteButton.addEventListener("click", () => {
