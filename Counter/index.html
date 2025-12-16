@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
 </head>
+
 <body>
     <button id="counter">Counter: 0</button>
-    <script src="script.js"></script>
+    <script>
+        const btn = document.getElementById("counter");
+        let counter = 0;
+        btn.addEventListener("click", () => {
+            counter++;
+            btn.textContent = "Counter: " + counter;
+        })
+    </script>
 </body>
+
 </html>
