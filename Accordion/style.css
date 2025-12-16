@@ -1,0 +1,18 @@
+.bar{
+    border: 0px;
+    width: 500px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(69, 106, 107);
+    cursor: pointer;
+    margin: 5px;
+}
+.bar:active{
+    background-color: cadetblue;
+}
+.accordion{
+    height: 25px;
+    display: none;
+}
