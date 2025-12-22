@@ -9,17 +9,16 @@ body {
     width: var(--icon-size);
 }
 
-.empty .star-icon{
-        fill: none;
+.empty .star-icon {
+    fill: none;
 }
 
-.filled .star-icon{
+.filled .star-icon {
     fill: yellow;
 }
 
-#box{
+#box {
     display: flex;
-    border: 1px solid black;
     height: 30px;
     width: 160px;
 }
