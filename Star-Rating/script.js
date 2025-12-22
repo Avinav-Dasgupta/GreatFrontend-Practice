@@ -16,7 +16,7 @@ function removeFill() {
 }
 
 function addFill(star) {
-    for (let i = 0; i <star; i++) {
+    for (let i = 0; i < star; i++) {
         stars[i].classList.add("filled");
         stars[i].classList.remove("empty");
     }
@@ -27,23 +27,23 @@ function displayStars() {
         const starSpace = document.createElement("div");
         starSpace.innerHTML = star;
         starSpace.classList.add("empty");
-        
+
         starSpace.addEventListener("click", () => {
             removeFill();
-            addFill(i+1);
-            filledStars = i+1;
+            addFill(i + 1);
+            filledStars = i + 1;
         });
 
-        starSpace.addEventListener("mouseover", () =>{
+        starSpace.addEventListener("mouseover", () => {
             removeFill();
-            addFill(i+1);
+            addFill(i + 1);
         })
         container.appendChild(starSpace);
         stars.push(starSpace);
     }
 }
 
-container.addEventListener("mouseleave", () =>{
+container.addEventListener("mouseleave", () => {
     removeFill();
     addFill(filledStars);
 });
