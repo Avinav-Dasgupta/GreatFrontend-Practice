@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+
+.star-icon {
+    --icon-size: 32px;
+    cursor: pointer;
+    height: var(--icon-size);
+    width: var(--icon-size);
+}
+
+.empty .star-icon{
+        fill: none;
+}
+
+.filled .star-icon{
+    fill: yellow;
+}
+
+#box{
+    display: flex;
+    border: 1px solid black;
+    height: 30px;
+    width: 160px;
+}
