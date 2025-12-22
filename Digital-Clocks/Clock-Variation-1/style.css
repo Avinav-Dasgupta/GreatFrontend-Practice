@@ -1,0 +1,21 @@
+#container {
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: #CC313D;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 100px;
+}
+
+.seperator {
+    color: #F7C5CC;
+    font-size: 70px;
+}
+
+.digit {
+    color: #F7C5CC;
+    font-size: 90px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
